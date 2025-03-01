@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .search-container {
+    position: relative;
+  }
+  
+  .list-group {
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  .bg-dark {
+    background-color: #121212 !important;
+    color: white !important;
+  }
+  .bg-light {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  
